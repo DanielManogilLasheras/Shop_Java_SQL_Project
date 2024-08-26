@@ -1,9 +1,9 @@
-package com.shop.leinadprojects.shop_java_sql;
+package controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class GraphicController {
     @FXML
     private Label welcomeText;
 

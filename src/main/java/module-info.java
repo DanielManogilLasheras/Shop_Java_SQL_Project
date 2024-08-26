@@ -13,4 +13,6 @@ module com.shop.leinadprojects.shop_java_sql {
 
     opens com.shop.leinadprojects.shop_java_sql to javafx.fxml;
     exports com.shop.leinadprojects.shop_java_sql;
+    exports controller;
+    opens controller to javafx.fxml;
 }

@@ -134,7 +134,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.shop.leinadprojects.shop_java_sql/com.shop.leinadprojects.shop_java_sql.HelloApplication
+                                com.shop.leinadprojects.shop_java_sql/com.shop.leinadprojects.shop_java_sql.Insertion
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
