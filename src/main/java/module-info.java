@@ -10,6 +10,7 @@ module com.shop.leinadprojects.shop_java_sql {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
 
     opens com.shop.leinadprojects.shop_java_sql to javafx.fxml;
     exports com.shop.leinadprojects.shop_java_sql;

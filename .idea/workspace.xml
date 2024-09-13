@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed" name="Changes" comment="UML created + creation of packages, and relocation of existing classes for better understanding" />
+    <list default="true" id="c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed" name="Changes" comment="UML created + creation of packages, and relocation of existing classes for better understanding">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataBase/DbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/DatabaseSchematic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/OrderDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ShoppingCartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/UML_Schematics/Shop_Java_UML.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/doc/UML_Schematics/Shop_Java_UML.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/UML_Schematics/Shop_Java_UML.zargo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/leinadprojects/shop_java_sql/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/leinadprojects/shop_java_sql/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/graphicsView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/graphicsView.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +34,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Shop_Java_SQL_Production" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -39,16 +69,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
+    "Application.Insertion.executor": "Run",
+    "JUnit.All in Shop_Java_SQL.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Shop__Java__SQL__Daniel",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -56,6 +91,35 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.shop.leinadprojects.shop_java_sql" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.Insertion">
+    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shop.leinadprojects.shop_java_sql.Insertion" />
+      <module name="Shop_Java_SQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shop.leinadprojects.shop_java_sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Shop_Java_SQL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Shop_Java_SQL" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Insertion" />
+        <item itemvalue="JUnit.All in Shop_Java_SQL" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -73,7 +137,15 @@
       <option name="presentableId" value="Default" />
       <updated>1724427304382</updated>
       <workItem from="1724427305848" duration="684000" />
-      <workItem from="1724674012312" duration="2995000" />
+      <workItem from="1724674012312" duration="3529000" />
+      <workItem from="1725464455140" duration="2057000" />
+      <workItem from="1725466522085" duration="1442000" />
+      <workItem from="1725619634590" duration="4325000" />
+      <workItem from="1725890026221" duration="7902000" />
+      <workItem from="1726058120101" duration="5019000" />
+      <workItem from="1726071887208" duration="1648000" />
+      <workItem from="1726225921690" duration="2964000" />
+      <workItem from="1726228894050" duration="3256000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -91,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724684430434</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="UML created + creation of packages, and relocation of existing classes for better understanding">
+      <option name="closed" value="true" />
+      <created>1724684720774</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724684720774</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
