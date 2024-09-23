@@ -13,13 +13,11 @@ import java.sql.Connection;
 
 public class Insertion extends Application {
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage primaryStage) throws IOException {
         Parent root=FXMLLoader.load(getClass().getResource("logInScene.fxml"));
-        FXMLLoader fxmlLoader = new FXMLLoader(Insertion.class.getResource("logInScene.fxml"));
-        Scene scene = new Scene(root);
-        stage.setTitle("LEINAD SL BASIC JAVA-SQL SHOP");
-        stage.setScene(scene);
-        stage.show();
+        primaryStage.setTitle("Shop Java-SQL");
+        primaryStage.setScene(new Scene(root));
+        primaryStage.show();
     }
 
     public static void main(String[] args) {

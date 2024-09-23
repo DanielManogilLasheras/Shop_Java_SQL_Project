@@ -14,18 +14,22 @@ import javafx.stage.Stage;
 import model.Client;
 import repository.ClientRepository;
 
+import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.sql.Connection;
 
 public class GraphicController {
     private Stage stage;
     private Scene scene;
     private Parent root;
+    private URL url;
     Connection connection;
     @FXML
     public void switchToRegisterWindow(ActionEvent event){
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(GraphicController.class.getResource("hello-view.fxml"));
+            url = new File("src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml").toURI().toURL();
+            root = FXMLLoader.load(url);
             stage=(Stage)((Node)event.getSource()).getScene().getWindow();
             scene=new Scene(root);
             stage.setScene(scene);
@@ -37,7 +41,8 @@ public class GraphicController {
     @FXML
     public void switchToLoginWindow(ActionEvent event){
         try {
-            Parent root=FXMLLoader.load(getClass().getResource("logInScene.fxml"));
+            url = new File("src/main/resources/com/shop/leinadprojects/shop_java_sql/logInScene.fxml").toURI().toURL();
+            root=FXMLLoader.load(url);
             stage=(Stage)((Node)event.getSource()).getScene().getWindow();
             scene=new Scene(root);
             stage.setScene(scene);

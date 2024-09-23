@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed" name="Changes" comment="UML created + creation of packages, and relocation of existing classes for better understanding">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/logInScene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml" afterDir="false" />
+    <list default="true" id="c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed" name="Changes" comment="Testing functionalities of loading different scenes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/leinadprojects/shop_java_sql/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/leinadprojects/shop_java_sql/Insertion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/graphicsView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/logInScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/logInScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Shop_Java_SQL_Production" />
+        <entry key="$PROJECT_DIR$" value="Shop_Java_SQL_Daniel" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,28 +52,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Insertion.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in Shop_Java_SQL.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Shop__Java__SQL__Daniel&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dmano/IdeaProjects/Pruebas_Didacticas_JDBC&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.Insertion.executor": "Run",
+    "JUnit.All in Shop_Java_SQL.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Shop__Java__SQL__Daniel__Test__LoadingScenes",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dmano/IdeaProjects/Pruebas_Didacticas_JDBC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.shop.leinadprojects.shop_java_sql" />
@@ -161,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726232284920</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Testing functionalities of loading different scenes">
+      <option name="closed" value="true" />
+      <created>1727102089335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727102089335</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +187,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="UML created + creation of packages, and relocation of existing classes for better understanding" />
-    <option name="LAST_COMMIT_MESSAGE" value="UML created + creation of packages, and relocation of existing classes for better understanding" />
+    <MESSAGE value="Testing functionalities of loading different scenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing functionalities of loading different scenes" />
   </component>
 </project>

@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="433.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GraphicController">
    <children>
       <VBox layoutX="34.0" layoutY="29.0" prefHeight="372.0" prefWidth="532.0">
@@ -56,7 +55,7 @@
                      </font>
                   </Label>
                   <TextField layoutX="137.0" layoutY="235.0" prefHeight="26.0" prefWidth="192.0" />
-                  <Button layoutX="466.0" layoutY="9.0" mnemonicParsing="false" onAction="#switchToLoginWindow" text="Back" />
+                  <Button layoutX="466.0" layoutY="9.0" mnemonicParsing="false" id="switchToLogInButton" onAction="#switchToLoginWindow" text="Back" />
                   <Label layoutX="135.0" layoutY="345.0" prefHeight="18.0" prefWidth="261.0" />
                   <Label layoutX="337.0" layoutY="54.0" prefHeight="18.0" prefWidth="170.0" />
                   <Label layoutX="337.0" layoutY="89.0" prefHeight="18.0" prefWidth="170.0" />
