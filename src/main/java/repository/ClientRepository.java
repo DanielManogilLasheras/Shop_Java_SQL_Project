@@ -31,7 +31,7 @@ public class ClientRepository implements DatabaseSchematic{
         }
         return userFound;
     }
-    public void signUp(Client clientToSign){
+    public void register(Client clientToSign){
         if(!searchClient(clientToSign.getEmail())){
             connection=DbConnection.getConnection();
             PreparedStatement preparedStatement=null;
@@ -47,19 +47,23 @@ public class ClientRepository implements DatabaseSchematic{
                 preparedStatement.close();
             } catch (SQLException e) {
                 System.out.println("Error en la sentencia SQL" + e.getMessage());
+            }finally {
+                DbConnection.closeConnection();
+                connection=null;
             }
-            DbConnection.closeConnection();
+
 
         }
     }
-    public boolean signIn(String email,String password){
+    public boolean logIn(String email, String password){
+        System.out.println(email + password);
         connection=DbConnection.getConnection();
         boolean login=false;
         ResultSet resultSet;
         PreparedStatement preparedStatement=null;
         String query=String.format("SELECT * FROM %s WHERE %s=? AND %s=?",
                 DatabaseSchematic.CLIENT_TABLE,
-                DatabaseSchematic.COL_NAME,
+                DatabaseSchematic.COL_EMAIL,
                 DatabaseSchematic.COL_PASSWORD);
         try {
             preparedStatement=connection.prepareStatement(query);
@@ -69,8 +73,11 @@ public class ClientRepository implements DatabaseSchematic{
             login=resultSet.next();
         } catch (SQLException e) {
             System.out.println("Error en la sentencia SQL");
+        }finally {
+            DbConnection.closeConnection();
+            connection=null;
         }
-        return false;
+        return login;
     }
 }
 
