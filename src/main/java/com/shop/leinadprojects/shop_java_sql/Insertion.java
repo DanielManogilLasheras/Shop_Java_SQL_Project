@@ -9,15 +9,21 @@ import model.Client;
 import repository.ClientRepository;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.sql.Connection;
 
 public class Insertion extends Application {
     @Override
-    public void start(Stage primaryStage) throws IOException {
+    public void start(Stage stage) throws IOException {
         Parent root=FXMLLoader.load(getClass().getResource("logInScene.fxml"));
-        primaryStage.setTitle("Shop Java-SQL");
-        primaryStage.setScene(new Scene(root));
-        primaryStage.show();
+        Scene scene= new Scene(root);
+        //String css=this.getClass().getResource("css/loginStyles.css").toExternalForm();
+        //scene.getStylesheets().add(css);
+        stage.setScene(scene);
+        stage.show();
+
+
     }
 
     public static void main(String[] args) {

@@ -1,0 +1,6 @@
+.root{
+    -fx-background-image: url('img/Shop_Wallpaper.jpg');
+}
+.label{
+    -fx-font-color: white;
+}
