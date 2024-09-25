@@ -18,6 +18,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
+import java.util.Objects;
 
 public class GraphicController {
     private Stage stage;
@@ -52,33 +53,46 @@ public class GraphicController {
         }
     }
     @FXML
-    private Label welcomeText;
+    private Label loginErrorLabel,nameError,surnameError,emailError,ageError,passwordError,confPassError,resultRegistration;
     @FXML
-    private TextField name,surname,email,age,password;
+    private TextField logEmail,logPassword;
+    @FXML
+    private TextField regNameField,regSurnameField,regEmailField,regAgeField,regPassField,regConfField;
     @FXML
     private TextField logText;
 
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Bienvenido a la tienda online JAVA_SQL! Por favor, registre un nuevo usuario, " +
-                "o inicie sesión si ya tiene una cuenta en nuestra base de datos.");
-    }
+
     @FXML
     protected void registerAction(){
-        connection=DbConnection.getConnection();
-        String ageClient=age.getText();
-        Client client=new Client(name.getText(),surname.getText(),email.getText(),Integer.valueOf(ageClient),password.getText());
-        ClientRepository clientRepository=new ClientRepository();
-        clientRepository.register(client);
+        String ageClient=regAgeField.getText();
+        if(regNameField.getText()==null){
+            resultRegistration.setText("Please fill all the fields marked with a *");
+        }else{
+            connection=DbConnection.getConnection();
+            ClientRepository clientRepository=new ClientRepository();
+            if(regPassField.equals(regConfField)){
+                confPassError.setText("The password doesn't match");
+            }else{
+                if(clientRepository.searchClient(regEmailField.getText())){
+                    emailError.setText("This email already has an account");
+                }else{
+                    Client client=new Client(regNameField.getText(),regSurnameField.getText(),regEmailField.getText(),Integer.valueOf(ageClient),regPassField.getText());
+                    if(clientRepository.register(client)){
+
+                    }
+                }
+        }
+        }
+
     }
     @FXML
     protected void loginAction(){
         connection=DbConnection.getConnection();
         ClientRepository clientRepository=new ClientRepository();
-         if(clientRepository.logIn(email.getText(),password.getText())){
-             welcomeText.setText("Logeado con exito");
+         if(!clientRepository.logIn(logEmail.getText(),logPassword.getText())){
+             loginErrorLabel.setText("The email or password are incorrect");
          }else{
-             welcomeText.setText("No has logeado");
+             loginErrorLabel.setText("You logged successfully");
          }
     }
 }

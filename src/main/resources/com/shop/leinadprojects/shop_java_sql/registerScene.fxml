@@ -43,26 +43,24 @@
                         <Font name="Agency FB" size="25.0" />
                      </font>
                   </Label>
-                  <TextField layoutX="137.0" layoutY="55.0" prefHeight="26.0" prefWidth="192.0" />
-                  <TextField layoutX="137.0" layoutY="100.0" prefHeight="26.0" prefWidth="192.0" />
-                  <TextField layoutX="137.0" layoutY="145.0" prefHeight="26.0" prefWidth="192.0" />
-                  <TextField layoutX="137.0" layoutY="190.0" prefHeight="26.0" prefWidth="192.0" />
-                  <TextField layoutX="137.0" layoutY="235.0" prefHeight="26.0" prefWidth="192.0" />
-                  <Button layoutX="180.0" layoutY="324.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="170.0" text="Complete registration:" />
+                  <TextField fx:id="regNameField" layoutX="137.0" layoutY="55.0" prefHeight="26.0" prefWidth="192.0" />
+                  <TextField fx:id="regSurnameField" layoutX="137.0" layoutY="100.0" prefHeight="26.0" prefWidth="192.0" />
+                  <TextField fx:id="regEmailField" layoutX="137.0" layoutY="145.0" prefHeight="26.0" prefWidth="192.0" />
+                  <TextField fx:id="regAgeField" layoutX="137.0" layoutY="190.0" prefHeight="26.0" prefWidth="192.0" />
+                  <TextField fx:id="regPassField" layoutX="137.0" layoutY="235.0" prefHeight="26.0" prefWidth="192.0" />
+                  <Button fx:id="registerButton" layoutX="180.0" layoutY="324.0" mnemonicParsing="false" onAction="#registerAction" prefHeight="31.0" prefWidth="170.0" text="Complete registration:" />
                   <Label layoutX="5.0" layoutY="280.0" text="Confirm password:*">
                      <font>
                         <Font name="Agency FB" size="20.0" />
                      </font>
                   </Label>
-                  <TextField layoutX="137.0" layoutY="280.0" prefHeight="26.0" prefWidth="192.0" />
-                  <Button id="switchToLogInButton" contentDisplay="CENTER" layoutX="466.0" layoutY="9.0" mnemonicParsing="false" onAction="#switchToLoginWindow" text="Back" />
+                  <TextField fx:id="regConfField" layoutX="137.0" layoutY="280.0" prefHeight="26.0" prefWidth="192.0" />
+                  <Button id="switchToLogInButton" fx:id="backLoginButton" contentDisplay="CENTER" layoutX="466.0" layoutY="9.0" mnemonicParsing="false" onAction="#switchToLoginWindow" text="Back" />
                   <Label layoutX="135.0" layoutY="345.0" prefHeight="18.0" prefWidth="261.0" />
-                  <Label fx:id="nameError" layoutX="337.0" layoutY="55.0" prefHeight="26.0" prefWidth="170.0" />
-                  <Label fx:id="surnameError" layoutX="337.0" layoutY="100.0" prefHeight="26.0" prefWidth="170.0" />
-                  <Label fx:id="emailError" layoutX="337.0" layoutY="145.0" prefHeight="26.0" prefWidth="170.0" />
-                  <Label fx:id="ageError" layoutX="337.0" layoutY="190.0" prefHeight="26.0" prefWidth="170.0" />
-                  <Label fx:id="passwordError" layoutX="337.0" layoutY="235.0" prefHeight="26.0" prefWidth="170.0" />
-                  <Label fx:id="confPassError" layoutX="337.0" layoutY="280.0" prefHeight="26.0" prefWidth="170.0" />
+                  <Label fx:id="emailError" layoutX="337.0" layoutY="145.0" prefHeight="26.0" prefWidth="192.0" />
+                  <Label fx:id="passwordError" layoutX="337.0" layoutY="235.0" prefHeight="26.0" prefWidth="192.0" />
+                  <Label fx:id="confPassError" layoutX="337.0" layoutY="280.0" prefHeight="26.0" prefWidth="192.0" />
+                  <Label fx:id="resultRegistration" layoutX="127.0" layoutY="375.0" prefHeight="38.0" prefWidth="278.0" />
                </children>
             </AnchorPane>
          </children>

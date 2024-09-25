@@ -31,7 +31,7 @@ public class ClientRepository implements DatabaseSchematic{
         }
         return userFound;
     }
-    public void register(Client clientToSign){
+    public boolean register(Client clientToSign){
         if(!searchClient(clientToSign.getEmail())){
             connection=DbConnection.getConnection();
             PreparedStatement preparedStatement=null;

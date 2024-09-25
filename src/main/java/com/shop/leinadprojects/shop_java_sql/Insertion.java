@@ -21,6 +21,7 @@ public class Insertion extends Application {
         //String css=this.getClass().getResource("css/loginStyles.css").toExternalForm();
         //scene.getStylesheets().add(css);
         stage.setScene(scene);
+        stage.centerOnScreen();
         stage.show();
 
 
