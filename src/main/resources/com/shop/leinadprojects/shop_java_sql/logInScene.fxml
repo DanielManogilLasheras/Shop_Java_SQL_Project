@@ -53,7 +53,7 @@
                               <Font size="14.0" />
                            </font>
                         </TextField>
-                        <Label fx:id="loginErrorLabel" layoutX="127.0" layoutY="217.0" prefHeight="32.0" prefWidth="233.0" />
+                        <Label fx:id="loginErrorLabel" layoutX="386.0" layoutY="8.0" prefHeight="49.0" prefWidth="254.0" />
                      </children>
                   </AnchorPane>
                         </children>
