@@ -32,6 +32,7 @@ public class ClientRepository implements DatabaseSchematic{
         return userFound;
     }
     public boolean register(Client clientToSign){
+        boolean userSigned=false;
         if(!searchClient(clientToSign.getEmail())){
             connection=DbConnection.getConnection();
             PreparedStatement preparedStatement=null;
@@ -44,16 +45,15 @@ public class ClientRepository implements DatabaseSchematic{
                 preparedStatement.setInt(4,clientToSign.getAge());
                 preparedStatement.setString(5,clientToSign.getPassword());
                 preparedStatement.execute();
+                if(searchClient(clientToSign.getEmail())){
+                    userSigned=true;
+                }
                 preparedStatement.close();
             } catch (SQLException e) {
                 System.out.println("Error en la sentencia SQL" + e.getMessage());
-            }finally {
-                DbConnection.closeConnection();
-                connection=null;
             }
-
-
         }
+        return userSigned;
     }
     public boolean logIn(String email, String password){
         System.out.println(email + password);

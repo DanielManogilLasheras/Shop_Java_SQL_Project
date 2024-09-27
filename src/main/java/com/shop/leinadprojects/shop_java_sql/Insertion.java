@@ -18,10 +18,10 @@ public class Insertion extends Application {
     public void start(Stage stage) throws IOException {
         Parent root=FXMLLoader.load(getClass().getResource("logInScene.fxml"));
         Scene scene= new Scene(root);
-        //String css=this.getClass().getResource("css/loginStyles.css").toExternalForm();
-        //scene.getStylesheets().add(css);
         stage.setScene(scene);
         stage.centerOnScreen();
+        stage.setResizable(false);
+        stage.setTitle("Daniel Manogil Shop Java-SQL");
         stage.show();
 
 

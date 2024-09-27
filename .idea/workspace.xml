@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed" name="Changes" comment="Started working on functions for login and registring" />
+    <list default="true" id="c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed" name="Changes" comment="Started working on functions for login and registring">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/css/registerStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/shopMainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/leinadprojects/shop_java_sql/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/leinadprojects/shop_java_sql/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/logInScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/logInScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -85,6 +94,7 @@
       <recent name="C:\Users\dmano\IdeaProjects\Shop_Java_SQL\src\main\java\controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dmano\IdeaProjects\Shop_Java_SQL\src\main\resources\com\shop\leinadprojects\shop_java_sql\css" />
       <recent name="C:\Users\dmano\IdeaProjects\Shop_Java_SQL\src\main\resources\com\shop\leinadprojects\shop_java_sql" />
       <recent name="C:\Users\dmano\IdeaProjects\Shop_Java_SQL\src\main\css" />
       <recent name="C:\Users\dmano\IdeaProjects\Shop_Java_SQL\src\main\java\com\shop\leinadprojects\shop_java_sql" />
