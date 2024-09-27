@@ -31,7 +31,8 @@ public class ClientRepository implements DatabaseSchematic{
         }
         return userFound;
     }
-    public void signUp(Client clientToSign){
+    public boolean register(Client clientToSign){
+        boolean userSigned=false;
         if(!searchClient(clientToSign.getEmail())){
             connection=DbConnection.getConnection();
             PreparedStatement preparedStatement=null;
@@ -44,22 +45,25 @@ public class ClientRepository implements DatabaseSchematic{
                 preparedStatement.setInt(4,clientToSign.getAge());
                 preparedStatement.setString(5,clientToSign.getPassword());
                 preparedStatement.execute();
+                if(searchClient(clientToSign.getEmail())){
+                    userSigned=true;
+                }
                 preparedStatement.close();
             } catch (SQLException e) {
                 System.out.println("Error en la sentencia SQL" + e.getMessage());
             }
-            DbConnection.closeConnection();
-
         }
+        return userSigned;
     }
-    public boolean signIn(String email,String password){
+    public boolean logIn(String email, String password){
+        System.out.println(email + password);
         connection=DbConnection.getConnection();
         boolean login=false;
         ResultSet resultSet;
         PreparedStatement preparedStatement=null;
         String query=String.format("SELECT * FROM %s WHERE %s=? AND %s=?",
                 DatabaseSchematic.CLIENT_TABLE,
-                DatabaseSchematic.COL_NAME,
+                DatabaseSchematic.COL_EMAIL,
                 DatabaseSchematic.COL_PASSWORD);
         try {
             preparedStatement=connection.prepareStatement(query);
@@ -69,8 +73,11 @@ public class ClientRepository implements DatabaseSchematic{
             login=resultSet.next();
         } catch (SQLException e) {
             System.out.println("Error en la sentencia SQL");
+        }finally {
+            DbConnection.closeConnection();
+            connection=null;
         }
-        return false;
+        return login;
     }
 }
 
