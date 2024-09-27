@@ -1,0 +1,133 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed\" name=\"Changes\" comment=\"Started working on functions for login and registring\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/css/registerStyles.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/shopMainWindow.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/shop/leinadprojects/shop_java_sql/Insertion.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/shop/leinadprojects/shop_java_sql/Insertion.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/controller/GraphicController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/controller/GraphicController.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/repository/ClientRepository.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/repository/ClientRepository.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/logInScene.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/logInScene.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"FxmlFile\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Shop_Java_SQL_Daniel\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;DanielManogilLasheras&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/DanielManogilLasheras/Shop_Java_SQL_Project.git&quot;,\r\n    &quot;accountId&quot;: &quot;1f51df75-29a0-4714-a73d-d19f2e0998f0&quot;\r\n  }\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHomeTypeForPersistence\" value=\"WRAPPER\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2l474ZAt6VLS4DUUK6uwU8VELbf\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Insertion.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.All in Shop_Java_SQL.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;Shop__Java__SQL__Daniel__Test__LoadingScenes&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/dmano/IdeaProjects/Shop_Java_SQL/src/main/java/controller&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\dmano\\IdeaProjects\\Shop_Java_SQL\\src\\main\\java\\controller\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\dmano\\IdeaProjects\\Shop_Java_SQL\\src\\main\\resources\\com\\shop\\leinadprojects\\shop_java_sql\\css\" />\r\n      <recent name=\"C:\\Users\\dmano\\IdeaProjects\\Shop_Java_SQL\\src\\main\\resources\\com\\shop\\leinadprojects\\shop_java_sql\" />\r\n      <recent name=\"C:\\Users\\dmano\\IdeaProjects\\Shop_Java_SQL\\src\\main\\css\" />\r\n      <recent name=\"C:\\Users\\dmano\\IdeaProjects\\Shop_Java_SQL\\src\\main\\java\\com\\shop\\leinadprojects\\shop_java_sql\" />\r\n      <recent name=\"C:\\Users\\dmano\\IdeaProjects\\Shop_Java_SQL\\src\" />\r\n    </key>\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"com.shop.leinadprojects.shop_java_sql\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Insertion\">\r\n    <configuration name=\"Insertion\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.shop.leinadprojects.shop_java_sql.Insertion\" />\r\n      <module name=\"Shop_Java_SQL\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.shop.leinadprojects.shop_java_sql.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"All in Shop_Java_SQL\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Shop_Java_SQL\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"TEST_OBJECT\" value=\"package\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Insertion\" />\r\n        <item itemvalue=\"JUnit.All in Shop_Java_SQL\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed\" name=\"Changes\" comment=\"\" />\r\n      <created>1724427304382</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1724427304382</updated>\r\n      <workItem from=\"1724427305848\" duration=\"684000\" />\r\n      <workItem from=\"1724674012312\" duration=\"3529000\" />\r\n      <workItem from=\"1725464455140\" duration=\"2057000\" />\r\n      <workItem from=\"1725466522085\" duration=\"1442000\" />\r\n      <workItem from=\"1725619634590\" duration=\"4325000\" />\r\n      <workItem from=\"1725890026221\" duration=\"7902000\" />\r\n      <workItem from=\"1726058120101\" duration=\"5019000\" />\r\n      <workItem from=\"1726071887208\" duration=\"1648000\" />\r\n      <workItem from=\"1726225921690\" duration=\"2964000\" />\r\n      <workItem from=\"1726228894050\" duration=\"3398000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Initial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724427389881</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724427389882</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"UML created + creation of packages, and relocation of existing classes for better understanding\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724684430434</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724684430434</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"UML created + creation of packages, and relocation of existing classes for better understanding\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724684720774</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724684720774</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"UML created + creation of packages, and relocation of existing classes for better understanding\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1726232284920</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1726232284920</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Testing functionalities of loading different scenes\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727102089335</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727102089335</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Testing functionalities of loading different scenes\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727105272639</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727105272639</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Completed beta of primary stage and registration graphic scenes\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727105382658</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727105382658</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Completed beta of primary stage and registration graphic scenes\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727282872371</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727282872371</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Started working on functions for login and registring\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727287172765</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727287172765</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Initial\" />\r\n    <MESSAGE value=\"UML created + creation of packages, and relocation of existing classes for better understanding\" />\r\n    <MESSAGE value=\"Testing functionalities of loading different scenes\" />\r\n    <MESSAGE value=\"Completed beta of primary stage and registration graphic scenes\" />\r\n    <MESSAGE value=\"Started working on functions for login and registring\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Started working on functions for login and registring\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4a510889b032754e208bf7f2aaa5fb8a30d59239)
++++ b/.idea/workspace.xml	(date 1727454755286)
+@@ -4,16 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed" name="Changes" comment="Started working on functions for login and registring">
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/css/registerStyles.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/shopMainWindow.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/leinadprojects/shop_java_sql/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/leinadprojects/shop_java_sql/Insertion.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ClientRepository.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/logInScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/logInScene.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml" afterDir="false" />
+-    </list>
++    <list default="true" id="c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed" name="Changes" comment="Completed logIn and register windows, next step is to start working on the shop's main window and fixing the accesibility when trying to switch windows." />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -42,12 +33,22 @@
+     &quot;assignee&quot;: &quot;DanielManogilLasheras&quot;
+   }
+ }</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/DanielManogilLasheras/Shop_Java_SQL_Project.git&quot;,
+-    &quot;accountId&quot;: &quot;1f51df75-29a0-4714-a73d-d19f2e0998f0&quot;
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/DanielManogilLasheras/Shop_Java_SQL_Project.git",
++    "accountId": "1f51df75-29a0-4714-a73d-d19f2e0998f0"
++  },
++  "recentNewPullRequestHead": {
++    "server": {
++      "useHttp": false,
++      "host": "github.com",
++      "port": null,
++      "suffix": null
++    },
++    "owner": "DanielManogilLasheras",
++    "repository": "Shop_Java_SQL_Project"
+   }
+-}</component>
++}]]></component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+@@ -67,28 +68,28 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Insertion.executor&quot;: &quot;Run&quot;,
+-    &quot;JUnit.All in Shop_Java_SQL.executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;Shop__Java__SQL__Daniel__Test__LoadingScenes&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dmano/IdeaProjects/Shop_Java_SQL/src/main/java/controller&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Application.HelloApplication.executor": "Run",
++    "Application.Insertion.executor": "Run",
++    "JUnit.All in Shop_Java_SQL.executor": "Run",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "git-widget-placeholder": "#6 on Shop__Java__SQL__Daniel__Test__LoadingScenes",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/dmano/IdeaProjects/Shop_Java_SQL/src/main/java/controller",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "project.structure.last.edited": "Modules",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\dmano\IdeaProjects\Shop_Java_SQL\src\main\java\controller" />
+@@ -224,7 +225,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1727287172765</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="Completed logIn and register windows, next step is to start working on the shop's main window and fixing the accesibility when trying to switch windows.">
++      <option name="closed" value="true" />
++      <created>1727454502387</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1727454502387</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -247,6 +256,7 @@
+     <MESSAGE value="Testing functionalities of loading different scenes" />
+     <MESSAGE value="Completed beta of primary stage and registration graphic scenes" />
+     <MESSAGE value="Started working on functions for login and registring" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Started working on functions for login and registring" />
++    <MESSAGE value="Completed logIn and register windows, next step is to start working on the shop's main window and fixing the accesibility when trying to switch windows." />
++    <option name="LAST_COMMIT_MESSAGE" value="Completed logIn and register windows, next step is to start working on the shop's main window and fixing the accesibility when trying to switch windows." />
+   </component>
+ </project>
+\ No newline at end of file
