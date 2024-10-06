@@ -23,8 +23,6 @@ public class Insertion extends Application {
         stage.setResizable(false);
         stage.setTitle("Daniel Manogil Shop Java-SQL");
         stage.show();
-
-
     }
 
     public static void main(String[] args) {
