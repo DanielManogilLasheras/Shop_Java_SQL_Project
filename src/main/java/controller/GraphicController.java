@@ -1,6 +1,4 @@
 package controller;
-
-import com.shop.leinadprojects.shop_java_sql.Insertion;
 import dataBase.DbConnection;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -12,20 +10,21 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import javafx.stage.Window;
 import model.Client;
 import repository.ClientRepository;
-
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.Connection;
-import java.util.Objects;
+
 
 public class GraphicController {
     private Stage stage;
     private Scene scene;
     private Parent root;
+    private Window window;
     private URL url;
     private Client client;
     private ClientRepository clientRepository;
@@ -41,6 +40,7 @@ public class GraphicController {
     @FXML
     public void switchToRegisterWindow(ActionEvent event){
         try {
+
             url = new File("src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml").toURI().toURL();
             root = FXMLLoader.load(url);
             stage=(Stage)((Node)event.getSource()).getScene().getWindow();
@@ -68,10 +68,7 @@ public class GraphicController {
             System.out.println("Error al ejecutar comando: " + e.getMessage());
         }
     }
-    @FXML
-    protected void shopMainWindow() throws IOException {
 
-    }
     @FXML
     protected void registerAction(){
         resultRegistration.setText("");
@@ -101,7 +98,7 @@ public class GraphicController {
         }
     }
     @FXML
-    protected void loginAction(){
+    protected boolean loginAction(){
         String loginActionEmail=logEmail.getText();
         String loginActionPassword=logPassword.getText();
         clientRepository=new ClientRepository();
@@ -113,8 +110,34 @@ public class GraphicController {
                 if(!clientRepository.logIn(logEmail.getText(),logPassword.getText())){
                     loginErrorLabel.setText("The email or password are incorrect");
                 }else{
+                    return true;
                 }
             }
+        }
+    return false;
+    }
+    @FXML
+    protected void shopMainWindow(ActionEvent event){
+        if (loginAction()){
+            client=new Client();
+            client=clientRepository.retrieveClientInfo(logEmail.getText());
+            try {
+                url=new File("src/main/resources/com/shop/leinadprojects/shop_java_sql/shopMainWindow.fxml").toURI().toURL();
+            } catch (MalformedURLException e) {
+                System.out.println("Error al formar la url de carga " + e.getMessage());
+            }
+            try {
+                root=FXMLLoader.load(url);
+            } catch (IOException e) {
+                System.out.println("Error en la carga del recurso: " + e.getMessage());
+            }
+            stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+            scene=new Scene(root);
+            stage.setScene(scene);
+            stage.setFullScreen(true);
+            stage.setResizable(false);
+            stage.setTitle("Daniel Manogil Shop Java-SQL");
+            stage.show();
         }
     }
 }

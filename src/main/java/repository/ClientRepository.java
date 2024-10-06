@@ -56,7 +56,6 @@ public class ClientRepository implements DatabaseSchematic{
         return userSigned;
     }
     public boolean logIn(String email, String password){
-        System.out.println(email + password);
         connection=DbConnection.getConnection();
         boolean login=false;
         ResultSet resultSet;
@@ -78,6 +77,33 @@ public class ClientRepository implements DatabaseSchematic{
             connection=null;
         }
         return login;
+    }
+    public Client retrieveClientInfo(String email){
+        Client client;
+        ResultSet resultSet;
+        connection=DbConnection.getConnection();
+        PreparedStatement preparedStatement=null;
+        String query=String.format("SELECT * FROM %s WHERE %s=?",
+                DatabaseSchematic.CLIENT_TABLE,
+                DatabaseSchematic.COL_EMAIL
+        );
+        try {
+            preparedStatement=connection.prepareStatement(query);
+            preparedStatement.setString(1,email);
+            resultSet=preparedStatement.executeQuery();
+            if(resultSet.next()){
+                client=new Client(
+                        resultSet.getInt("id_client"),
+                        resultSet.getString("name"),
+                        resultSet.getString("surname"),
+                        resultSet.getString("email"),
+                        resultSet.getInt("age"));
+                return client;
+            }
+        } catch (SQLException e) {
+            System.out.println("Failure when making the sql query: " + e.getMessage());
+        }
+        return null;
     }
 }
 

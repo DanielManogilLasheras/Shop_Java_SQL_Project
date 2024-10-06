@@ -1,13 +1,21 @@
 package model;
 
 public class Client {
-    private String clientId,name,surname, email;
+    private int clientId;
+    private String name,surname, email;
     private int age;
     private String password;
 
     public Client() {
     }
-
+    public Client(int clientId, String name, String surname, String email, int age) {
+        this.clientId=clientId;
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+        this.age = age;
+        this.password = password;
+    }
     public Client(String name, String surname, String email, int age, String password) {
         this.name = name;
         this.surname = surname;
@@ -16,7 +24,7 @@ public class Client {
         this.password = password;
     }
 
-    public String getClientId() {
+    public int getClientId() {
         return clientId;
     }
 
