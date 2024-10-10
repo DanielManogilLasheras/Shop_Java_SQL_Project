@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 import model.Client;
@@ -40,7 +41,6 @@ public class GraphicController {
     @FXML
     public void switchToRegisterWindow(ActionEvent event){
         try {
-
             url = new File("src/main/resources/com/shop/leinadprojects/shop_java_sql/registerScene.fxml").toURI().toURL();
             root = FXMLLoader.load(url);
             stage=(Stage)((Node)event.getSource()).getScene().getWindow();
@@ -134,8 +134,10 @@ public class GraphicController {
             stage=(Stage)((Node)event.getSource()).getScene().getWindow();
             scene=new Scene(root);
             stage.setScene(scene);
+            stage.setMaxHeight(Screen.getPrimary().getBounds().getHeight());
+            stage.setMaxWidth(Screen.getPrimary().getBounds().getWidth());
             stage.setFullScreen(true);
-            stage.setResizable(false);
+            stage.setResizable(true);
             stage.setTitle("Daniel Manogil Shop Java-SQL");
             stage.show();
         }
