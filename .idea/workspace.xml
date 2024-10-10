@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed" name="Changes" comment="I have finished the login functionality and I'm ready to work on the shop main window that will be used to switch between scenes and access the functionalities of the shop.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/css/shopMainWindow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/shopMainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/shopMainWindow.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727455026518</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="I have finished the graphic interface that will allow the user to access the shopping window and features. &#10;As my next step, I will be setting up the graphic interface for the shopping cart and add functionality to the &quot;Order Product&quot; and &quot;Shopping Cart&quot; windows.">
+      <option name="closed" value="true" />
+      <created>1728582901289</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728582901289</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +280,7 @@
     <MESSAGE value="Started working on functions for login and registring" />
     <MESSAGE value="Completed logIn and register windows, next step is to start working on the shop's main window and fixing the accesibility when trying to switch windows." />
     <MESSAGE value="sorteed branches" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorteed branches" />
+    <MESSAGE value="I have finished the graphic interface that will allow the user to access the shopping window and features. &#10;As my next step, I will be setting up the graphic interface for the shopping cart and add functionality to the &quot;Order Product&quot; and &quot;Shopping Cart&quot; windows." />
+    <option name="LAST_COMMIT_MESSAGE" value="I have finished the graphic interface that will allow the user to access the shopping window and features. &#10;As my next step, I will be setting up the graphic interface for the shopping cart and add functionality to the &quot;Order Product&quot; and &quot;Shopping Cart&quot; windows." />
   </component>
 </project>
