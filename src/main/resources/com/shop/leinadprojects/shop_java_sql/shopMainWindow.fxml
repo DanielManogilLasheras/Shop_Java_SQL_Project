@@ -26,11 +26,11 @@
                            <children>
                               <TableView fx:id="productsTable" VBox.vgrow="ALWAYS">
                                 <columns>
-                                  <TableColumn fx:id="productOrCol" editable="false" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" text="Product ID" />
-                                  <TableColumn fx:id="nameOrCol" editable="false" minWidth="200.0" prefWidth="200.0" text="Name" />
-                                    <TableColumn fx:id="descriptionOrCol" editable="false" minWidth="250.0" prefWidth="400.0" text="Description" />
-                                    <TableColumn fx:id="priceOrCol" editable="false" minWidth="100.0" prefWidth="100.0" text="Price AT" />
-                                    <TableColumn fx:id="stockOrCol" editable="false" minWidth="-1.0" prefWidth="50.0" text="Stock" />
+                                    <TableColumn fx:id="idProductTab" prefWidth="75.0" text="Product ID" />
+                                  <TableColumn fx:id="nameProductTab" editable="false" minWidth="200.0" prefWidth="200.0" text="Name" />
+                                    <TableColumn fx:id="descriptionProductTab" editable="false" minWidth="250.0" prefWidth="297.5999755859375" text="Description" />
+                                    <TableColumn fx:id="priceProductTab" editable="false" minWidth="100.0" prefWidth="112.79998779296875" text="Price AT" />
+                                    <TableColumn fx:id="stockProductTab" editable="false" minWidth="-1.0" prefWidth="63.9998779296875" text="Stock" />
                                 </columns>
                               </TableView>
                               <VBox prefHeight="190.0" prefWidth="800.0">

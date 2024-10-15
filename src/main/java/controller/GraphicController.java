@@ -1,24 +1,30 @@
 package controller;
 import dataBase.DbConnection;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 import model.Client;
+import model.Product;
 import repository.ClientRepository;
+import repository.OrderRepository;
+import repository.ProductRepository;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.Connection;
+import java.util.ArrayList;
 
 
 public class GraphicController {
@@ -29,15 +35,17 @@ public class GraphicController {
     private URL url;
     private Client client;
     private ClientRepository clientRepository;
+    private OrderRepository orderRepository;
+    private ProductRepository productRepository;
     Connection connection;
+    @FXML private Label loginErrorLabel,nameError,surnameError,emailError,ageError,passwordError,confPassError,resultRegistration;
+    @FXML private TextField logEmail,logPassword;
+    @FXML private TextField regNameField,regSurnameField,regEmailField,regAgeField,regPassField,regConfField;
+    @FXML Button button;
+    @FXML TableView productsTable;
+    @FXML TableColumn idProductTab,nameProductTab,descriptionProductTab,priceProductTab,stockProductTab;
     @FXML
-    private Label loginErrorLabel,nameError,surnameError,emailError,ageError,passwordError,confPassError,resultRegistration;
-    @FXML
-    private TextField logEmail,logPassword;
-    @FXML
-    private TextField regNameField,regSurnameField,regEmailField,regAgeField,regPassField,regConfField;
-    @FXML
-    Button button;
+    ObservableList<Product> productsList;
     @FXML
     public void switchToRegisterWindow(ActionEvent event){
         try {
@@ -140,6 +148,21 @@ public class GraphicController {
             stage.setResizable(true);
             stage.setTitle("Daniel Manogil Shop Java-SQL");
             stage.show();
+
+        }
+    }
+    protected void initializeTable(){
+        productRepository=new ProductRepository();
+        idProductTab.setCellValueFactory(new PropertyValueFactory<Product,Integer>("idProduct"));
+        nameProductTab.setCellValueFactory(new PropertyValueFactory<Product,String>("nameProduct"));
+        descriptionProductTab.setCellValueFactory(new PropertyValueFactory<Product,String>("descriptionProduct"));
+        priceProductTab.setCellValueFactory(new PropertyValueFactory<Product,Double>("costUnit"));
+        stockProductTab.setCellValueFactory(new PropertyValueFactory<Product,Integer>("stock"));
+        productsList= FXCollections.observableArrayList();
+        productsTable.setItems(productsList);
+        ArrayList<Product>products=productRepository.listOfProducts();
+        for(Product item:products){
+            productsList.add(item);
         }
     }
 }
