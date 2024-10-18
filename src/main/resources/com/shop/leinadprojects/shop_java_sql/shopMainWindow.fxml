@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="1060.0" maxWidth="1900.0" minHeight="600.0" minWidth="800.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GraphicController">
+<AnchorPane maxHeight="1060.0" maxWidth="1900.0" minHeight="600.0" minWidth="800.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindowController">
     <children>
         <TabPane prefHeight="605.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <tabs>
@@ -26,11 +26,11 @@
                                     <children>
                                         <TableView fx:id="productsTable" VBox.vgrow="ALWAYS">
                                             <columns>
-                                                <TableColumn fx:id="productOrCol" editable="false" maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" text="Product ID" />
-                                                <TableColumn fx:id="nameOrCol" editable="false" minWidth="200.0" prefWidth="200.0" text="Name" />
-                                                <TableColumn fx:id="descriptionOrCol" editable="false" minWidth="250.0" prefWidth="400.0" text="Description" />
-                                                <TableColumn fx:id="priceOrCol" editable="false" minWidth="100.0" prefWidth="100.0" text="Price AT" />
-                                                <TableColumn fx:id="stockOrCol" editable="false" minWidth="-1.0" prefWidth="50.0" text="Stock" />
+                                    <TableColumn fx:id="idOrCol" prefWidth="75.0" text="ID" />
+                                                <TableColumn fx:id="nameOrCol" minWidth="200.0" prefWidth="200.0" text="Name" />
+                                                <TableColumn fx:id="descriptionOrCol" minWidth="228.0" prefWidth="228.0" text="Description" />
+                                                <TableColumn fx:id="priceOrCol" minWidth="100.0" prefWidth="150.4000244140625" text="Price AT" />
+                                                <TableColumn fx:id="stockOrCol" editable="false" minWidth="-1.0" prefWidth="172.0" text="Stock" />
                                             </columns>
                                         </TableView>
                                         <VBox prefHeight="190.0" prefWidth="800.0">

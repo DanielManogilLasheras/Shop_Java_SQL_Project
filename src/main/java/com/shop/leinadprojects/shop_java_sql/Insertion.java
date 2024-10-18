@@ -7,11 +7,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import model.Client;
 import repository.ClientRepository;
-
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.sql.Connection;
 
 public class Insertion extends Application {
     @Override
