@@ -1,12 +1,19 @@
 package model;
-
 public class Product {
     private int idProduct;
     private String nameProduct,description;
     private double costUnit;
-    private int stock,idProductLine;
+    private int stock;
 
     public Product() {
+    }
+
+    public Product(int idProduct, String nameProduct, String description, double costUnit, int stock) {
+        this.idProduct = idProduct;
+        this.nameProduct = nameProduct;
+        this.description = description;
+        this.costUnit = costUnit;
+        this.stock = stock;
     }
 
     public int getIdProduct() {
@@ -45,13 +52,7 @@ public class Product {
         this.stock = stock;
     }
 
-    public int getIdProductLine() {
-        return idProductLine;
-    }
 
-    public void setIdProductLine(int idProductLine) {
-        this.idProductLine = idProductLine;
-    }
 
     @Override
     public String toString() {
@@ -61,8 +62,6 @@ public class Product {
                 ", description='" + description + '\'' +
                 ", costUnit=" + costUnit +
                 ", stock=" + stock +
-                ", idProductLine=" + idProductLine +
                 '}';
     }
 }
-

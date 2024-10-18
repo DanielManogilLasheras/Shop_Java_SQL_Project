@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed" name="Changes" comment="There was a bug in the merge that didn't allow the shopMainWindow file to update correctly and therefore it didn't introduce my last changes.">
+    <list default="true" id="c17c6f5d-c6b5-4208-a5e4-898c52b8b2ed" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GraphicController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/OrderRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/shopMainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/shop/leinadprojects/shop_java_sql/shopMainWindow.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Shop_Java_SQL_Daniel" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,28 +63,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Insertion.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in Shop_Java_SQL.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Shop__Java__SQL__Daniel&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dmano/Github/Java_Repository/PROJECTS/Project_Folders/Multimedia_Library&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.Insertion.executor": "Run",
+    "JUnit.All in Shop_Java_SQL.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dmano/Github/Java_Repository/PROJECTS/Project_Folders/Multimedia_Library",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dmano\IdeaProjects\Shop_Java_SQL\src\main\java\controller" />
@@ -126,10 +124,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Insertion" />
         <item itemvalue="JUnit.All in Shop_Java_SQL" />
         <item itemvalue="Application.Insertion" />
         <item itemvalue="JUnit.All in Shop_Java_SQL" />
+        <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.Insertion" />
       </list>
     </recent_temporary>
@@ -241,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727455026518</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update">
+      <option name="closed" value="true" />
+      <created>1729249906871</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729249906871</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +284,7 @@
     <MESSAGE value="Started working on functions for login and registring" />
     <MESSAGE value="Completed logIn and register windows, next step is to start working on the shop's main window and fixing the accesibility when trying to switch windows." />
     <MESSAGE value="sorteed branches" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorteed branches" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
